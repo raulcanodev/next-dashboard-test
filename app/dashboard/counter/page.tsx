@@ -1,5 +1,7 @@
 import { CartCounter } from "@/app/shopping-cart";
 
+
+
 export const metadata = {
   title:"Counter",
   description:"A simple counter page",

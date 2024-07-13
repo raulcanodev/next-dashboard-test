@@ -11,6 +11,8 @@ const getPokemons = async(limit = 20, offset= 0) =>{
     name: pokemon.name
   }))
 
+  // throw new Error('Error fetching pokemons')
+
   return pokemons;
 }
 
